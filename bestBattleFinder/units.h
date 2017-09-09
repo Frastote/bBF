@@ -1,12 +1,14 @@
 #ifndef DEF_MAIN
 
 	#define DEF_MAIN
-	struct Units{
+	typedef struct Unit Unit;
+	struct Unit{
 		char name[50];
 		unsigned long price;
+		int hp;
 		unsigned int attack;
 		unsigned int defense;
-	}
+	};
 
 
 #endif
